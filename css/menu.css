@@ -1,0 +1,58 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.table-section {
+  padding: 40px 20px;
+}
+
+.table-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.table-subtitle {
+  text-align: center;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.table {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 0.9rem;
+}
+
+.table th {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.table td {
+  vertical-align: middle;
+}
+
+.icon {
+  max-width: 50px;
+  margin: auto;
+}
+
+.btn-back {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #FFC107;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.btn-back:hover {
+  background-color: #e0a800;
+}
