@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <link href="./css/blog.css" rel="stylesheet" />
     <title>Blog - Shoes and Care</title>
 </head>
@@ -25,7 +26,7 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Tips</span>
-                            <h5>Tips Memilih Sepatu Untuk Gym!</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal1">Tips Memilih Sepatu Untuk Gym!</h5>
                         </div>
                     </div>
                 </div>
@@ -35,7 +36,7 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Informasi</span>
-                            <h5>Mengapa Brand Sepatu Besar Mulai Beralih Ke Produk Ramah Lingkungan?</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal2">Mengapa Brand Sepatu Besar Mulai Beralih Ke Produk Ramah Lingkungan?</h5>
                         </div>
                     </div>
                 </div>
@@ -45,7 +46,7 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Tips</span>
-                            <h5>7 Kriteria Wajib Memilih Sepatu Lari</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal3">7 Kriteria Wajib Memilih Sepatu Lari</h5>
                         </div>
                     </div>
                 </div>
@@ -55,7 +56,7 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Tips</span>
-                            <h5>Bagaimana Merawat Sepatu Suede Yang Baik Dan Benar?</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal4">Bagaimana Merawat Sepatu Suede Yang Baik Dan Benar?</h5>
                         </div>
                     </div>
                 </div>
@@ -65,7 +66,7 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Informasi</span>
-                            <h5>Mengapa Sepatu Lari Carbon Mempunyai Usia Yang Pendek?</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal5">Mengapa Sepatu Lari Carbon Mempunyai Usia Yang Pendek?</h5>
                         </div>
                     </div>
                 </div>
@@ -75,13 +76,103 @@
                     <div class="blog-card">
                         <div class="blog-card-content">
                             <span>Informasi</span>
-                            <h5>Mengapa Mencuci Sepatu Secara Rutin Itu Wajib!</h5>
+                            <h5 data-bs-toggle="modal" data-bs-target="#blogModal6">Mengapa Mencuci Sepatu Secara Rutin Itu Wajib!</h5>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Modal 1 -->
+    <div class="modal fade" id="blogModal1" tabindex="-1" aria-labelledby="blogModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel1">Tips Memilih Sepatu Untuk Gym!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Artikel tentang tips memilih sepatu yang cocok untuk gym, meliputi fitur, kenyamanan, dan bahan yang harus diperhatikan.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 -->
+    <div class="modal fade" id="blogModal2" tabindex="-1" aria-labelledby="blogModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel2">Mengapa Brand Sepatu Besar Mulai Beralih Ke Produk Ramah Lingkungan?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Artikel tentang bagaimana brand sepatu besar mulai mempertimbangkan keberlanjutan dan produk ramah lingkungan dalam lini produk mereka.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 -->
+    <div class="modal fade" id="blogModal3" tabindex="-1" aria-labelledby="blogModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel3">7 Kriteria Wajib Memilih Sepatu Lari</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Artikel ini membahas tujuh kriteria yang perlu diperhatikan saat memilih sepatu lari, dari ukuran hingga fitur khusus untuk kenyamanan dan performa terbaik.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 4 -->
+    <div class="modal fade" id="blogModal4" tabindex="-1" aria-labelledby="blogModalLabel4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel4">Bagaimana Merawat Sepatu Suede Yang Baik Dan Benar?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Pelajari cara merawat sepatu suede agar tetap awet dan bersih, dengan tips tentang pembersihan dan penyimpanan yang benar.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5 -->
+    <div class="modal fade" id="blogModal5" tabindex="-1" aria-labelledby="blogModalLabel5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel5">Mengapa Sepatu Lari Carbon Mempunyai Usia Yang Pendek?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Artikel ini menjelaskan mengapa sepatu lari dengan teknologi carbon biasanya memiliki usia yang lebih pendek dibandingkan sepatu lainnya.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 6 -->
+    <div class="modal fade" id="blogModal6" tabindex="-1" aria-labelledby="blogModalLabel6" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blogModalLabel6">Mengapa Mencuci Sepatu Secara Rutin Itu Wajib!</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Artikel tentang pentingnya mencuci sepatu secara rutin untuk menjaga kebersihan dan kesehatan kaki, serta untuk meningkatkan umur sepatu.</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
